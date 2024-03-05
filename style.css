@@ -1,0 +1,61 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'fantasy';
+}
+html,body{
+    height:100%;
+    width:100%;
+    background: #222;
+}
+
+.card{
+    width:80%;
+    max-width: 700px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 35px;
+}
+#search img{
+    height: 40px;
+    width: 40px;
+    /* border-radius: 13px; */
+}
+#search{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search input{
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    color:#e00d0d;
+    padding:10px 10px;
+    border-radius: 20px;
+    height:50px;
+    font-size: 20px;
+    font-family:'verdana';
+    flex: 0.97;
+}
+#search button{
+    border:0;
+    outline:0;
+    border-radius: 50%;
+    background: #cdebe6;
+    cursor: pointer;
+}
+#wicon{
+    height: 270px;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 10px;
+}
